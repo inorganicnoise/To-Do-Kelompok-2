@@ -21,21 +21,23 @@ Aplikasi to-do list sederhana untuk membantu mencatat, mengelola, dan menyelesai
 
 ```
 todo-list-app/
+├── README.md
+├── hapus.js
+├── hitung.js
 ├── index.html
-├── style.css
 ├── script.js
-└── README.md
+└── style.css
 ```
 
 ## 🚀 Cara Menjalankan
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/[username]/todo-list-app.git
+   git clone https://github.com/inorganicnoise/To-Do-Kelompok-2.git
    ```
 2. Masuk ke folder proyek:
    ```bash
-   cd todo-list-app
+   cd To-Do-Kelompok-2
    ```
 3. Buka file `index.html` di browser.
 
@@ -49,7 +51,7 @@ todo-list-app/
 
 ## 📸 Tampilan
 
-![Screenshot aplikasi](./screenshot.png)
+<img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/0442a26d-ea16-437c-a706-dd9cac1f1e07" />
 
 ## 🗺️ Rencana Pengembangan
 
