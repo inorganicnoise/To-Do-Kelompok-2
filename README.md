@@ -1,81 +1,68 @@
 # 📝 To-Do List App
 
-Aplikasi to-do list sederhana untuk membantu mencatat, mengelola, dan menyelesaikan tugas harian dengan mudah.
+Aplikasi web To-Do List sederhana yang dibuat kelompok 2 pada praktikum RPL (Scrum dengan Git & GitHub). Pengguna menulis tugas, menekan tombol **Tambah**, lalu tugas muncul di daftar.
 
 ## ✨ Fitur
 
-- Menambahkan tugas baru
-- Menandai tugas sebagai selesai
-- Mengedit tugas
-- Menghapus tugas
-- Filter tugas (semua, aktif, selesai)
-- Data tersimpan otomatis di browser (localStorage)
+- Menambahkan tugas baru (tugas kosong diabaikan)
+- Menandai tugas selesai dengan sekali klik (teks tercoret)
+- Menghapus tugas dengan klik dua kali
+- Menampilkan jumlah tugas secara otomatis
 
 ## 🛠️ Teknologi
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
+HTML5, CSS3, dan JavaScript (tanpa framework).
 
 ## 📁 Struktur Proyek
 
-```
-todo-list-app/
-├── README.md
-├── hapus.js
-├── hitung.js
-├── index.html
-├── script.js
-└── style.css
-```
+| File | Fungsi | User Story |
+|---|---|---|
+| `index.html` | Halaman utama | US-1 |
+| `script.js` | Tambah tugas dan tandai selesai | US-2 |
+| `style.css` | Tampilan | US-3 |
+| `README.md` | Dokumentasi | US-4 |
+| `hapus.js` | Hapus tugas | US-5 |
+| `hitung.js` | Jumlah tugas | US-6 |
 
 ## 🚀 Cara Menjalankan
 
-1. Clone repositori ini:
-   ```bash
+1. Clone repositori:
+   ```
    git clone https://github.com/inorganicnoise/To-Do-Kelompok-2.git
    ```
 2. Masuk ke folder proyek:
-   ```bash
+   ```
    cd To-Do-Kelompok-2
    ```
-3. Buka file `index.html` di browser.
+3. Buka `index.html` di browser.
 
 ## 📖 Cara Penggunaan
 
-1. Ketik tugas pada kolom input, lalu tekan **Tambah** atau tombol **Enter**.
-2. Klik kotak centang untuk menandai tugas selesai.
-3. Klik ikon edit untuk mengubah tugas.
-4. Klik ikon hapus untuk menghapus tugas.
-5. Gunakan tombol filter untuk melihat tugas berdasarkan statusnya.
-
-## 📸 Tampilan
-
-<img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/0442a26d-ea16-437c-a706-dd9cac1f1e07" />
+1. Ketik tugas pada kotak isian, lalu klik **Tambah**.
+2. Klik sekali pada tugas untuk menandainya selesai (klik lagi untuk membatalkan).
+3. Klik dua kali pada tugas untuk menghapusnya.
+4. Jumlah tugas tampil di atas daftar.
 
 ## 🗺️ Rencana Pengembangan
 
-- [ ] Pengingat dan tenggat waktu
-- [ ] Kategori dan prioritas tugas
-- [ ] Mode gelap
-- [ ] Sinkronisasi dengan backend
+- [ ] Tombol Hapus Semua
+- [ ] Tambah tugas dengan tombol Enter
+- [ ] Mengedit tugas
+- [ ] Filter tugas (semua, aktif, selesai)
+- [ ] Penyimpanan otomatis (localStorage)
+- [ ] Tampilan yang lebih menarik
 
-## 🤝 Kontribusi
+## 🤝 Alur Kerja Tim
 
-Kontribusi sangat terbuka. Silakan fork repositori ini, buat branch baru, lalu ajukan pull request.
+Setiap anggota bekerja di branch sendiri (`fitur/us-<nomor>-<nama fitur>`), membuat pull request, lalu di-review dan di-merge oleh Scrum Master.
 
-1. Fork proyek ini
-2. Buat branch fitur (`git checkout -b fitur/nama-fitur`)
-3. Commit perubahan (`git commit -m "Menambahkan fitur ..."`)
-4. Push ke branch (`git push origin fitur/nama-fitur`)
-5. Buat Pull Request
+## 👤 Anggota Kelompok 2
 
-
-
-## 👤 Penulis
-1. Muhammad Fajri Jumadil (F1G125041) - Product Owner 
-2. Rahmah Hidayah Lahompu (F1G125047) - Scrum Master 
-3. Elsya Sagitha Damayanti S (F1G125029) - Developer 1
-4. Sahrun Karimu (F1G125041) - Developer 2
-5. Ferdy Krisnandar (F1G125032) - Developer 3
-6. Muh. Aimar Razak (F1G125013) - Developer 4
+| No | Nama | NIM | Peran |
+|---|---|---|---|
+| 1 | Muhammad Fajri Jumadil | F1G125041 | Product Owner |
+| 2 | Rahmah Hidayah Lahompu | F1G125047 | Scrum Master |
+| 3 | Elsya Sagitha Damayanti S | F1G125029 | Developer 1 |
+| 4 | Sahrun Karimu | F1G125051 | Developer 2 |
+| 5 | Ferdy Krisnandar | F1G125032 | Developer 3 |
+| 6 | Muh. Aimar Razak | F1G125013 | Developer 4 |
