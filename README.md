@@ -66,3 +66,4 @@ Setiap anggota bekerja di branch sendiri (`fitur/us-<nomor>-<nama fitur>`), memb
 | 4 | Sahrun Karimu | F1G125051 | Developer 2 |
 | 5 | Ferdy Krisnandar | F1G125032 | Developer 3 |
 | 6 | Muh. Aimar Razak | F1G125013 | Developer 4 |
+ 
